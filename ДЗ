@@ -1,0 +1,36 @@
+Задание №1
+import random
+print(random.randint(1, 10))
+
+Задание №2
+word = 'Hello World'
+for i in word:
+    print(i)
+
+Задание №3
+x = 1
+y = 1
+while x <= 10:
+    while y <= 10:
+        print(x * y, end='\t')
+        y += 1
+    print('\n')
+    y = 1
+    x += 1
+
+Задание №4
+a = [0, 1, 2, 3, 7, 9, 18, 29, 34, 50, 91, 112]
+print(a[0], end=', ')
+print(a[1], end=', ')
+print(a[2], end=', ')
+print(a[3], end=', ')
+print(a[4])
+
+Задание №5
+list = [24, 233, 267, 202, 219, 229, 46, 160, 102, 345, 62, 238, 67, 111, 324]
+
+for i in list:
+    if i % 2 == 0:
+        print(i, end=', ')
+    elif i == 345:
+        break
